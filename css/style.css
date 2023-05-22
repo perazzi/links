@@ -200,6 +200,19 @@ main {
   min-height: 3.7em;
   text-align: center;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_button_item svg {
+  fill: var(--svg_color);
+  width:32px;
+  height:32px;
+}
+
+.button_icon{
+  margin-right:5px;
 }
 
 .main_small_button_list {
@@ -249,7 +262,7 @@ main {
 
 /* Responsive Codes */
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .main_text_item {
     width: 92vw;
   }
